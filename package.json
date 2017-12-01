@@ -1,0 +1,12 @@
+{
+  "name": "oauth-azure-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "postinstall": "tsc"
+  }
+}
