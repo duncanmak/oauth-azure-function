@@ -12,7 +12,7 @@
                 "route": "{*url}",
                 "methods": [ "GET", "HEAD", "OPTIONS" ]
             },
-            "backendUri": "https://%SPA_HOST%/"
+            "backendUri": "https://%SPA_HOST%/index.html"
         },
         "appResources": {
             "matchCondition": {
