@@ -12,7 +12,7 @@
     "react-scripts-ts": "2.8.0"
   },
   "scripts": {
-    "postinstall": "npm run server:build && npm run client:build && npm run client:install",
+    "postinstall": "npm run server:build",
     "server:build": "node node_modules/typescript/bin/tsc -p tsconfig.server.json",
     "client:build": "node node_modules/react-scripts-ts/bin/react-scripts-ts.js build",
     "client:install": "echo TODO: Copy to Azure Blob Container",
